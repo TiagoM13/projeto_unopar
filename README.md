@@ -12,6 +12,11 @@
  Signo com as datas de ínicio e fim
  Características do signo
 
+## Layout do projeto
+
+  <img src="./public/layout_1.png" alt="imagem do projeto"/>
+  <img src="./public/layout_2.png" alt="imagem de consulta de signos"/>
+
 ## Ferramentas Utilizadas 
   - Vscode
   - HTML
