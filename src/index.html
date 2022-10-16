@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/public/favicon.jpg" type="image/x-icon">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Descubra seu Signo!</h1>
+      <form class="form">
+        <div class="form-group">
+          <label for="name">Nome Completo:</label>
+          <input type="text" name="Name" id="user" />
+          <label for="date">Data de Nascimento:</label>
+          <input type="date" name="Name" id="date" />
+        </div>
+        <div class="group-button">
+          <button type="submit" id="btn">Mostrar</button>
+          <button type="reset" id="btn-reset">Apagar consulta</button>
+        </div>
+      </form>
+    </div>
+    <div id="html"></div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
